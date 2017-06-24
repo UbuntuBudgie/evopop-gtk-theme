@@ -1,0 +1,21 @@
+Source: evopop-gtk-theme
+Section: misc
+Priority: extra
+Maintainer: David Mohammed <fossfreedom@ubuntu.com>
+Build-Depends: debhelper (>= 10),
+ dh-buildinfo,
+ pkg-config,
+ libgtk-3-dev
+Standards-Version: 3.9.8
+Vcs-Browser: https://github.com/UbuntuBudgie/evopop-gtk-theme/tree/debian
+Vcs-Git: https://github.com/UbuntuBudgie/evopop-gtk-theme -b debian
+Homepage: http://github.com/solus-project/evopop-gtk-theme
+
+Package: evopop-gtk-theme
+Architecture: all
+Depends: gnome-themes-standard, 
+ gtk2-engines-murrine,
+ ${misc:Depends}
+Description: Modern desktop theme with Paper theme as its base
+ EvoPop is a modern desktop theme suite.  Its design is mostly flat with
+ a minimal use of shadows for depth.  Requires GTK+3.22

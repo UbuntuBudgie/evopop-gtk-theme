@@ -1,0 +1,11 @@
+#! /usr/bin/make -f
+
+%:
+	dh $@ --with autoreconf
+
+override_dh_autoreconf:
+	dh_autoreconf  --as-needed
+	
+override_dh_auto_install:
+	dh_auto_install
+	cd debian/EvoPop; find . -type f -exec chmod 644 {} \;
