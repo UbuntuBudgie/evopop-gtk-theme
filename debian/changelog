@@ -1,3 +1,9 @@
+evopop-gtk-theme (2.9.95-0ubuntu1) artful; urgency=medium
+
+  * pre-release upstream
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Wed, 23 Aug 2017 08:18:04 +0100
+
 evopop-gtk-theme (2.9.92-0ubuntu1) zesty; urgency=medium
 
   * pre-release upstream
